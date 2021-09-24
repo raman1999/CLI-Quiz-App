@@ -7,7 +7,7 @@ const read = require("readline-sync")
 console.log("\nThere will be some MCQ questions where you have to enter your choice (put only choice number).\nYou will get +1 score for every right answer.\So, let's get start")
 
  var score = 0;
-
+//this is function
  function question(que, options, corAns) {
      console.log("\n" + que)
      for (var i = 0; i < options.length; i++) {
